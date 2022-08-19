@@ -1,0 +1,168 @@
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 177.77777778vh;
+    /* 100 * 16 / 9 */
+    min-width: 100%;
+    min-height: 56.25vw;
+    z-index: -100;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(facade.jpg) no-repeat;
+    background-size: cover;
+    -webkit-transition: 32s opacity;
+    transition: 16s opacity;
+    z-index: 0;
+    filter: brightness(80%);
+}
+
+.logo {
+    position: relative;
+    left: 150px;
+    top: 35px;
+}
+
+.logo img {
+    width: 130px;
+}
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+    top: -10px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: #0C1077;
+    border-radius: 20px;
+}
+
+.topnav-right {
+    position: relative;
+    right: 150px;
+    float: right;
+}
+
+.body-container {
+    position: absolute;
+    left: 150px;
+    top: 120px;
+}
+
+.container-left {
+    display: flex;
+    align-items: center;
+}
+
+.img-r {
+    margin-right: 5px;
+}
+
+.img-r img {
+    width: 50px;
+}
+.pp{
+    color: white;
+    margin: 0;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    font-weight: 545;
+    font-size: 20px;
+}
+.smaller {
+    color: white;
+    margin: 0;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 15px;
+}
+.test{
+    color: white;
+    font-family: 'Cormorant Infant';
+    font-weight: 500;
+    font-size: 16px;
+}
+.img-test {
+    width: 190px;
+    height: 150px;
+}
+.test2{
+    display: inline-block;
+}
+.smaller-x {
+    color: white;
+    margin: 0;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 12px;
+}
+
+h2 {
+    width: 650px;
+    height: 250px;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 520;
+    font-size: 90px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    color: #F5F5F5;
+    margin-bottom: 30px;
+}
+
+.bottom-container {
+    display: flex;
+    background: rgba(12, 16, 119, 0.4);
+    position: absolute;
+    width: 179vh;
+    height: 146px;
+    left: 150px;
+    top: 580px;
+}
+
+.img-size {
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.content-bottom {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-bottom p {
+    line-height: 20px;
+}
