@@ -1,13 +1,13 @@
-var width = $('.ticker-text').width(),
-    containerwidth = $('.ticker-container').width(),
-    left = containerwidth;
-$(document).ready(function(e){
-	function tick() {
-        if(--left < -width){
-            left = containerwidth;
-        }
-        $(".ticker-text").css("margin-left", left + "px");
-        setTimeout(tick, 8);
+$(() => {
+    $('a[href*="#"]:not([href="#"])').click((e) => {
+      const target = $(e.target.hash);
+  
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+  
+        return false;
       }
-      tick();
-});
+    });
+  });
